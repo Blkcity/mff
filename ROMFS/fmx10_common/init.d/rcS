@@ -1,0 +1,8 @@
+#!nsh
+
+mount -t procfs /proc
+
+mount -t vfat /dev/mmcsd0 /fs/microsd
+
+uorb start &
+
