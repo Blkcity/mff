@@ -60,8 +60,8 @@ set(msg_file_names
 	#fw_virtual_attitude_setpoint.msg
 	#fw_virtual_rates_setpoint.msg
 	#geofence_result.msg
-	#gps_dump.msg
-	#gps_inject_data.msg
+	gps_dump.msg
+	gps_inject_data.msg
 	#hil_sensor.msg
 	#home_position.msg
 	input_rc.msg
@@ -85,7 +85,7 @@ set(msg_file_names
 	#rc_channels.msg
 	#rc_parameter_map.msg
 	safety.msg
-	#satellite_info.msg
+	satellite_info.msg
 	sensor_accel.msg
 	sensor_baro.msg
 	sensor_combined.msg
@@ -111,7 +111,7 @@ set(msg_file_names
 	#vehicle_force_setpoint.msg
 	#vehicle_global_position.msg
 	#vehicle_global_velocity_setpoint.msg
-	#vehicle_gps_position.msg
+	vehicle_gps_position.msg
 	#vehicle_land_detected.msg
 	#vehicle_local_position.msg
 	#vehicle_local_position_setpoint.msg

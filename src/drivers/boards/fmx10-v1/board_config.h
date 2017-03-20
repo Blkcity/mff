@@ -235,6 +235,7 @@ __BEGIN_DECLS
  */
 #define FMX10_I2C_OBDEV_LED	    0x55
 #define FMX10_I2C_OBDEV_HMC5883	0x1e
+#define FMX10_I2C_OBDEV_QMC5883	0x0d
 #define FMX10_I2C_OBDEV_LIS3MDL	0x1e
 
 /*
@@ -323,7 +324,8 @@ __BEGIN_DECLS
 #define HRT_PPM_CHANNEL         /* PA7[CN12-15] */  1	/* use capture/compare channel 1 */
 #define GPIO_PPM_IN             /* PB0[CN11-34] */ GPIO_TIM3_CH3IN_1
 
-#define RC_SERIAL_PORT		"/dev/ttyS4"
+#define VPU_SERIAL_PORT       "/dev/ttyS1"
+#define RC_SERIAL_PORT		"/dev/ttyS3"
 
 /* PWM input driver. Use FMU AUX5 pins attached to timer4 channel 2 */
 #define PWMIN_TIMER			4

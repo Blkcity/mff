@@ -55,7 +55,7 @@ set(SRCS
 if(${OS} STREQUAL "nuttx")
 	list(APPEND SRCS
 		err.c
-		#	printload.c
+		printload.c
 		param/param.c
 		#	flashparams/flashparams.c
 		#	flashparams/flashfs.c

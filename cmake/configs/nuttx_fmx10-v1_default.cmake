@@ -22,6 +22,7 @@ set(config_module_list
 		drivers/mpu6500
 	#	drivers/mpu9250
 		drivers/hmc5883
+		drivers/qmc5883
 		drivers/ms5611
 		drivers/ist8310
 		drivers/spl06001
@@ -30,7 +31,9 @@ set(config_module_list
 	#	drivers/sf0x
 	#	drivers/ll40ls
 	#	drivers/trone
-	#	drivers/gps
+		drivers/gps
+		drivers/rc_fm
+		drivers/vpu
 	#	drivers/pwm_out_sim
 	#	drivers/hott
 	#	drivers/hott/hott_telemetry
@@ -71,7 +74,7 @@ set(config_module_list
 	#	systemcmds/pwm
 	#	systemcmds/reboot
 	#	systemcmds/sd_bench
-	#	systemcmds/top
+		systemcmds/top
 	#	systemcmds/topic_listener
 	#	systemcmds/ver
 
